@@ -2,8 +2,8 @@ import './index.scss'
 import LogoS from'../../../assets/images/logo-s.png'
 
 import { useEffect, useRef } from 'react'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import gsap from 'gsap-trial'
+import DrawSVGPlugin from 'gsap/DrawSVGPlugin'
+import gsap from 'gsap'
 const Logo=()=>{
       const bgRef =useRef();
       const outlineLogoRef=useRef();
