@@ -19,7 +19,7 @@ const sendEmail=(e)=>{
     e.preventDefault()
 
 
-    emailjs
+    /*emailjs
     
       .sendForm('service_d1nwbjl', 'template_mt1cw7q', form.current, 'vBK0XSMcUxr_mB4XX')
       .then(
@@ -29,8 +29,8 @@ const sendEmail=(e)=>{
         },
         () => {
           alert('Failed to send the message, please try again')
-        }
-      )
+        }*/
+      
   }
 
 

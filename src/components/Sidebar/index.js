@@ -5,7 +5,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/swati.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Sidebar =()=>(
     <div className='nav-bar'>
         <Link className="logo" to="/">
@@ -39,9 +39,8 @@ const Sidebar =()=>(
 
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="www.youtube.com/@swatigupta180
-">
-                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/s.w.a.t.i._16?igsh=MTRiNDVmbzI2ODhjcA==">
+                        <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
                         </a>
 
             </li>
