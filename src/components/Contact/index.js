@@ -1,7 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders'
-//import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import { useEffect, useRef, useState } from 'react';
 //import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 const Contact =()=>{
@@ -19,7 +19,7 @@ const sendEmail=(e)=>{
     e.preventDefault()
 
 
-    /*emailjs
+    emailjs
     
       .sendForm('service_d1nwbjl', 'template_mt1cw7q', form.current, 'vBK0XSMcUxr_mB4XX')
       .then(
@@ -29,7 +29,7 @@ const sendEmail=(e)=>{
         },
         () => {
           alert('Failed to send the message, please try again')
-        }*/
+        })
       
   }
 
