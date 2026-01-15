@@ -35,18 +35,17 @@ useEffect(() => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+           I am a motivated B.Tech student in Electrical Engineering at NIT Jamshedpur with a strong interest 
+           in frontend and full-stack web development. I have hands-on experience building 
+           scalable web applications using the MERN stack, along with a solid foundation in data structures,
+            algorithms, and core computer science fundamentals. 
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
+           I enjoy creating responsive, user-friendly 
+            interfaces and solving real-world problems through clean and efficient code.</p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+           Alongside my technical skills, I am a disciplined and curious learner who values teamwork, leadership, and continuous growth, balancing academics with projects, hackathons, and extracurricular involvement.
+
           </p>
         </div>
 
