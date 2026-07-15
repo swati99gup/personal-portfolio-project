@@ -1,11 +1,12 @@
-.nav-bar{
-    background: #181818;
-    width: 60px;
-    height:100%;
-    position:absolute;
-    top:0;
-    z-index: 3;
-    min-height:500px;
+.nav-bar {
+  background: #181818;
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
     .logo{
         display: block;
         padding: 8px 0;
@@ -83,7 +84,11 @@ a {
         content: 'ABOUT';
       }
     }
-
+a.projects-link {
+  &:after {
+    content: 'PROJECTS';
+  }
+}
     a.contact-link {
       &:after {
         content: 'CONTACT';
@@ -122,4 +127,24 @@ a {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    width: 50px;
+  }
 
+  .nav-bar nav a {
+    font-size: 18px;
+    line-height: 45px;
+    height: 45px;
+  }
+
+  .nav-bar .logo img.sub-logo {
+    width: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    width: 50px;
+    height: 100vh;
+  }
+}

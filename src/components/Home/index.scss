@@ -4,7 +4,7 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 55%;
     max-height: 90%;
   }
 
@@ -72,6 +72,25 @@ img {
  &:hover {
       background: #ffd700;
       color: #333;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-page {
+    .text-zone {
+      left: 65px;
+      width: calc(100% - 75px);
+      top: 45%;
+    }
+
+    h1 {
+      font-size: 34px;
+      line-height: 40px;
+    }
+
+    h2 {
+      font-size: 10px;
+      letter-spacing: 1px;
     }
   }
 }

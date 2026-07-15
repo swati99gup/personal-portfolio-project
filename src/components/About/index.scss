@@ -79,3 +79,34 @@
     transform: rotateX(90deg);
   }
 }
+@media screen and (max-width: 768px) {
+  .stage-cube-cont {
+    display: none;
+  }
+  
+} 
+@media screen and (max-width: 768px) {
+  .about-page {
+    .text-zone {
+  position: relative;
+  left: 0;
+  margin-left: 60px; // sidebar space
+  margin-right: 10px;
+  top: 20px;
+  width: auto;
+  transform: none;
+  max-height: none;
+}
+
+    h1 {
+      font-size: 42px;
+      line-height: 46px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      max-width: 100%;
+    }
+  }
+}
