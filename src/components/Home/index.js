@@ -7,7 +7,7 @@ import Logo from './Logo';
 const Home =()=>{
        const [letterClass,setLetterClass]= useState('text-animate')
        const nameArray=['w','a','t','i',' ','G','u','p','t','a']
-       const jobArray =['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
+       const jobArray =['A','s','p','i ','r','i','n','g',' ','S','o','f','t','w','a','r','e',' ','D','e','v','e','l','o','p','e','r','.']
        useEffect(()=>{
         const timeoutId=setTimeout(()=>{
             setLetterClass('text-animate-hover')
